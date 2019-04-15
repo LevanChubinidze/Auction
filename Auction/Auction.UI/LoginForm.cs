@@ -19,6 +19,9 @@ namespace Auction.UI
             Password_textBox.Tag = Password_label;
         }
 
- 
+        private void UserName_textBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

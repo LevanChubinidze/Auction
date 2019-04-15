@@ -43,6 +43,7 @@
             this.UserName_textBox.Name = "UserName_textBox";
             this.UserName_textBox.Size = new System.Drawing.Size(320, 31);
             this.UserName_textBox.TabIndex = 1;
+            this.UserName_textBox.TextChanged += new System.EventHandler(this.UserName_textBox_TextChanged);
             // 
             // contextMenuStrip1
             // 
@@ -90,7 +91,6 @@
             this.Controls.Add(this.UserName_textBox);
             this.Name = "LoginForm";
             this.Text = "Log in";
-            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
