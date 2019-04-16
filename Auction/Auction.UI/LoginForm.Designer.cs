@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.UserName_textBox = new System.Windows.Forms.TextBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.Password_textBox = new System.Windows.Forms.TextBox();
             this.UserName_label = new System.Windows.Forms.Label();
             this.Password_label = new System.Windows.Forms.Label();
@@ -44,11 +42,6 @@
             this.UserName_textBox.Size = new System.Drawing.Size(320, 31);
             this.UserName_textBox.TabIndex = 1;
             this.UserName_textBox.TextChanged += new System.EventHandler(this.UserName_textBox_TextChanged);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // Password_textBox
             // 
@@ -99,7 +92,6 @@
         #endregion
 
         private System.Windows.Forms.TextBox UserName_textBox;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox Password_textBox;
         private System.Windows.Forms.Label UserName_label;
         private System.Windows.Forms.Label Password_label;
